@@ -28,10 +28,10 @@ contract Vars{
     function getInt() public view returns(int){
         return b;
     }
-    function getString() public view returns(bool){
+    function getString() public view returns(string memory){
         return s;
     }
-    function getBoolean() public view returns(string memory){
+    function getBoolean() public view returns(bool){
         return bl;
     }
 }
